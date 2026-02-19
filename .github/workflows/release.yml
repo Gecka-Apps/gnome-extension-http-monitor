@@ -1,0 +1,36 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: sudo apt-get update && sudo apt-get install -y gettext gnome-shell libglib2.0-bin git
+
+    - name: Build extension
+      run: make build
+
+    - name: Get version from tag
+      id: get_version
+      run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
+
+    - name: Rename artifact with version
+      run: |
+        VERSION=${{ env.VERSION }}
+        mv build/http-monitor@gecka.nc.shell-extension.zip "build/http-monitor@gecka.nc-v${VERSION}.shell-extension.zip"
+
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: build/http-monitor@gecka.nc-v${{ env.VERSION }}.shell-extension.zip
