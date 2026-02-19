@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.http-monitor" path="/org/gnome/shell/extensions/http-monitor/">
+    <key name="monitor-urls" type="as">
+      <default>[]</default>
+      <summary>URLs to monitor</summary>
+      <description>List of JSON-encoded URL configurations. Each entry is a JSON object with: url (required), check (http|content|json, default http), content (for content mode), field and value (for json mode).</description>
+    </key>
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Enable monitoring</summary>
+      <description>Whether URL monitoring is active</description>
+    </key>
+    <key name="timeout" type="u">
+      <default>10</default>
+      <summary>Request timeout</summary>
+      <description>HTTP request timeout in seconds</description>
+    </key>
+  </schema>
+</schemalist>

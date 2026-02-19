@@ -1,0 +1,145 @@
+# Spanish translation for HTTP Monitor GNOME Shell Extension
+# Copyright (C) 2026
+# This file is distributed under the same license as the http-monitor@gecka.nc package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: http-monitor@gecka.nc 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-19 15:41+1100\n"
+"PO-Revision-Date: 2026-02-19 15:41+1100\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js:85
+msgid "Error"
+msgstr "Error"
+
+#: extension.js:88 extension.js:333 extension.js:344
+msgid "Connection error"
+msgstr "Error de conexión"
+
+#: extension.js:112
+msgid "No URLs configured"
+msgstr "No hay URLs configuradas"
+
+#: extension.js:120 prefs.js:157
+msgid "Settings"
+msgstr "Configuración"
+
+#: extension.js:141
+msgid "Off"
+msgstr "Desactivado"
+
+#: extension.js:143
+msgid "No URLs"
+msgstr "Sin URLs"
+
+#: extension.js:146
+msgid "1 error"
+msgstr "1 error"
+
+#: extension.js:147
+#, javascript-format
+msgid "%d errors"
+msgstr "%d errores"
+
+#: extension.js:149
+msgid "All OK"
+msgstr "Todo OK"
+
+#: extension.js:264
+msgid "Invalid URL"
+msgstr "URL no válida"
+
+#: extension.js:307
+msgid "Content not found"
+msgstr "Contenido no encontrado"
+
+#: extension.js:322
+msgid "Invalid JSON"
+msgstr "JSON no válido"
+
+#: extension.js:336
+msgid "Timeout"
+msgstr "Tiempo agotado"
+
+#: extension.js:338
+msgid "DNS error"
+msgstr "Error de DNS"
+
+#: extension.js:340
+msgid "Refused"
+msgstr "Rechazado"
+
+#: extension.js:342
+msgid "Unreachable"
+msgstr "Inaccesible"
+
+#: prefs.js:21
+msgid "General"
+msgstr "General"
+
+#: prefs.js:28
+msgid "URLs to monitor"
+msgstr "URLs a supervisar"
+
+#: prefs.js:29
+msgid "The extension checks each URL at regular intervals"
+msgstr "La extensión comprueba cada URL a intervalos regulares"
+
+#: prefs.js:51 prefs.js:75
+msgid "New URL"
+msgstr "Nueva URL"
+
+#: prefs.js:70
+msgid "URL"
+msgstr "URL"
+
+#: prefs.js:82
+msgid "HTTP Status (default)"
+msgstr "Estado HTTP (por defecto)"
+
+#: prefs.js:83
+msgid "Content Match"
+msgstr "Coincidencia de contenido"
+
+#: prefs.js:84
+msgid "JSON Field"
+msgstr "Campo JSON"
+
+#: prefs.js:87
+msgid "Check mode"
+msgstr "Modo de verificación"
+
+#: prefs.js:95
+msgid "Expected content"
+msgstr "Contenido esperado"
+
+#: prefs.js:104 prefs.js:180
+msgid "JSON field"
+msgstr "Campo JSON"
+
+#: prefs.js:113
+msgid "Expected value"
+msgstr "Valor esperado"
+
+#: prefs.js:162
+msgid "Request timeout"
+msgstr "Tiempo de espera"
+
+#: prefs.js:163
+msgid "In seconds"
+msgstr "En segundos"
+
+#: prefs.js:178
+msgid "Content match"
+msgstr "Coincidencia de contenido"
+
+#: prefs.js:182
+msgid "HTTP status"
+msgstr "Estado HTTP"

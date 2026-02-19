@@ -1,0 +1,16 @@
+{
+  "name": "HTTP Monitor",
+  "description": "Monitor HTTP endpoints from the top bar. Checks URLs at regular intervals and shows a warning indicator when errors are detected. Supports HTTP status, content match and JSON field validation. Configurable timeout and per-URL check modes.",
+  "uuid": "http-monitor@gecka.nc",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "version": 1,
+  "version-name": "1.0.0",
+  "url": "https://github.com/Gecka-Apps/gnome-extension-http-monitor",
+  "settings-schema": "org.gnome.shell.extensions.http-monitor",
+  "gettext-domain": "http-monitor@gecka.nc"
+}
