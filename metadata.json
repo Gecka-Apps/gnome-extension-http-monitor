@@ -9,8 +9,8 @@
     "49",
     "50"
   ],
-  "version": 1,
-  "version-name": "1.0.0",
+  "version": 2,
+  "version-name": "1.1.0",
   "url": "https://github.com/Gecka-Apps/gnome-extension-http-monitor",
   "settings-schema": "org.gnome.shell.extensions.http-monitor",
   "gettext-domain": "http-monitor@gecka.nc"
