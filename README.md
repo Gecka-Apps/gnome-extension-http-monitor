@@ -3,7 +3,7 @@
 A GNOME Shell extension that monitors HTTP endpoints and displays their status in Quick Settings. Warning indicator in the top bar when something goes wrong. Silent when everything is OK.
 
 ![License](https://img.shields.io/badge/license-GPL--3.0+-green)
-![GNOME Shell](https://img.shields.io/badge/GNOME%20Shell-46%20|%2047%20|%2048%20|%2049-blue)
+![GNOME Shell](https://img.shields.io/badge/GNOME%20Shell-46%20|%2047%20|%2048%20|%2049%20|%2050-blue)
 ![Release](https://img.shields.io/github/v/release/Gecka-Apps/gnome-extension-http-monitor)
 
 ## Features
@@ -96,7 +96,7 @@ Then configure the extension to monitor:
 
 ## Compatibility
 
-- **GNOME Shell**: 46, 47, 48, 49
+- **GNOME Shell**: 46, 47, 48, 49, 50
 - **Dependencies**: GLib 2.x, Soup 3.x
 
 ## License

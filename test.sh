@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Test script for HTTP Monitor extension
-# Builds, installs, and launches a nested GNOME Shell session for testing
+# Builds, installs, and launches a GNOME Shell devkit session for testing
 
 set -e
 
@@ -13,11 +13,11 @@ echo "Testing HTTP Monitor extension..."
 make -C "$SCRIPT_DIR" install
 
 echo ""
-echo "Launching nested GNOME Shell session..."
+echo "Launching GNOME Shell devkit session..."
 echo "Press Ctrl+C to exit the test session"
 echo ""
 
-# Launch nested GNOME Shell
+# Launch GNOME Shell devkit session
 env MUTTER_DEBUG_DUMMY_MODE_SPECS=1500x1000 \
     MUTTER_DEBUG_DUMMY_MONITOR_SCALES=1 \
-    dbus-run-session -- gnome-shell --nested --wayland
+    dbus-run-session -- gnome-shell --devkit --wayland
